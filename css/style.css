@@ -336,6 +336,7 @@ header .navbar-toggler:focus{
 .feature_section .features-box .features-icon img{
     width: 3.7rem;
     color: var(--primary-text);
+    margin-left: 12px;
 }
 
 .feature_section .feature_box h3{
@@ -346,4 +347,76 @@ header .navbar-toggler:focus{
 
 .feature_section .features-box:hover{
     background-color: var(--big-dark-color);
+    border-color: var(--big-dark-color);
 }
+
+.feature_section .feature_box:hover h3{
+    color: var(--white-text);
+}
+
+.feature_section .feature_box:hover .features-icon-border{
+    color: var(--secondary-color);
+}
+
+/*04 about section*/
+
+.landing_about_section{
+    background: url("../images/about/about-banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9rem 0;
+}
+
+.landing_about_section p{
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+}
+
+/*landing_product_section*/
+.landing_product_section .product-card{
+    border: 0.2rem solid var(--big-white);
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+    padding: 2rem 1rem;
+    transition: all 0.3s;
+}
+
+.landing_product_section .product-card .product-img{
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.landing_product_section .product-card h3{
+    color: var(--primary-text);
+}
+
+.landing_product_section .product-card span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-right: 0.5rem;
+    text-decoration: line-through;
+    transition: all 0.3s;
+}
+
+.landing_product_section .product-card .product-detail{
+    position: absolute;
+    bottom: -20rem;
+    left: 0;
+    right: 0;
+    padding: 5rem 1rem;
+    background-color: var(--dark-color);
+    transition: all 0.5s;
+}
+
+.landing_product_section .product-detail{
+    text-align: center;
+}
+
+.landing_product_section .product-card:hover .product-detail{
+    bottom: 0;
+}
+/*landing_product_section exit*/
