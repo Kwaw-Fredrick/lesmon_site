@@ -601,10 +601,16 @@ header .navbar-toggler:focus{
     line-height: 0;
     margin-top: 0;
     padding: 3rem 0;
-    color: white ;
+    color: white
 }
 
 .footer_wrapper .copyright-section a{
     color: var(--primary-text);
     font-weight: 600;
+}
+
+/* ABOUT PAGE CSS */
+
+.about .about_details p{
+    color: var(--primary-text);
 }
