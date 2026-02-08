@@ -614,3 +614,8 @@ header .navbar-toggler:focus{
 .about .about_details p{
     color: var(--primary-text);
 }
+
+/* PRODUCTS PAGE CSS */
+.product .product-detail p {
+    margin-bottom: 1.5rem;
+}
