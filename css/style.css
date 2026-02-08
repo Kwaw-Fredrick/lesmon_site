@@ -565,7 +565,46 @@ header .navbar-toggler:focus{
     color: var(--text-grey);
     text-align: center;
     border-radius: 100%;
+    font-size: 1.2rem;
     margin: 0 5px;
     -webkit-transition: all 0.3s cubic-bezier(0.625, 0.045, 0.355, 1);
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);    
+}
+
+
+ .footer_wrapper .social-network a:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--white-text);
+    box-shadow: 0 0.625rem .9375rem 0 rgb(0 0 0 / 10% );
+    transform: translateY(-0.1875rem);
+ }
+
+ .footer_wrapper .form-control{
+    font-size: 2rem;
+    color: var(--white-text);
+ }
+
+ .footer_wrapper .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--secondary-color);
+ }
+
+.footer_wrapper .copyright-section{
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.footer_wrapper .copyright-section p{
+    line-height: 0;
+    margin-top: 0;
+    padding: 3rem 0;
+    color: white ;
+}
+
+.footer_wrapper .copyright-section a{
+    color: var(--primary-text);
+    font-weight: 600;
 }
