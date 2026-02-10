@@ -31,6 +31,7 @@
     --white-text: #fff;
     --text-grey: #dee2e6;
     --anchor-color: #007aff;
+    --light-color: #ebf1f5;
 
     /*font family*/
     --primary-font: "Barlow Condensed", sans-serif;
@@ -618,4 +619,47 @@ header .navbar-toggler:focus{
 /* PRODUCTS PAGE CSS */
 .product .product-detail p {
     margin-bottom: 1.5rem;
+}
+
+/* contacts page css*/
+.contact .contact-form {
+    background-color: var(--light-color);
+    padding: 5rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 4% );
+
+}
+
+.contact .info-box{
+    position: relative;
+}
+
+.contact .info-box{
+    position: absolute;
+    left: 80rem;
+    bottom: 0;
+    top: 65rem;
+}
+
+
+.contact textarea{
+    min-height: 15rem;
+}
+
+.contact .contact-form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.contact .contact-form .form-control::placeholder{
+    color: var(--primary-text);
+}
+
+.contact .contact-form .form-control{
+    padding: 1rem 1.5rem;
+    border-radius: 0rem;
+    border: 0.1rem solid var(--secondary-color);
+    color: var(--primary-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--secondary-font);
 }
